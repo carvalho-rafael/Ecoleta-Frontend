@@ -131,20 +131,22 @@ fieldset legend span {
     flex: 0 1 30%;
     background: #eeeeee;
     text-align: center;
+    cursor: pointer;
 }
 
-.itens-coleta li .selected {
+.itens-coleta .selected {
     background: turquoise;
     border: 1px solid springgreen;
 }
 
 .itens-coleta li span {
     font-size: 12px;
+    font-weight: bold;
     margin: 15px 0;
 }
 
 .itens-coleta li img {
-    width: 30%;
+    width: 70%;
 }
 
 form button {
@@ -154,6 +156,12 @@ form button {
     color: #fff;
     background-color: #4CB04F;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+ background-color: #429145;
+ transition: all .5s;
 }
 
 .leaflet-container {
